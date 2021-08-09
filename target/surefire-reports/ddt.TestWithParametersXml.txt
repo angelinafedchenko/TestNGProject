@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ddt.TestWithParametersXml
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.523 s <<< FAILURE! - in ddt.TestWithParametersXml
+ddt.TestWithParametersXml.instanceDataProvider  Time elapsed: 0.468 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'param1' is required by @Test on method instanceDataProvider but has not been marked @Optional or defined
+
+

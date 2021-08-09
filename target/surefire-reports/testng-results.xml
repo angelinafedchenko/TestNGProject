@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="31" started-at="2021-07-29T11:04:53 EEST" finished-at="2021-07-29T11:04:53 EEST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="31" started-at="2021-07-29T11:04:53 EEST" finished-at="2021-07-29T11:04:53 EEST">
+      <class name="ddt.TestWithParameters">
+        <test-method status="PASS" signature="instanceDataProvider(int, java.lang.String)[pri:0, instance:ddt.TestWithParameters@ff5b51f]" name="instanceDataProvider" duration-ms="2" started-at="2021-07-29T11:04:53 EEST" data-provider="getData" finished-at="2021-07-29T11:04:53 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ivan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDataProvider -->
+        <test-method status="PASS" signature="instanceDataProvider(int, java.lang.String)[pri:0, instance:ddt.TestWithParameters@ff5b51f]" name="instanceDataProvider" duration-ms="0" started-at="2021-07-29T11:04:53 EEST" data-provider="getData" finished-at="2021-07-29T11:04:53 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Petro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDataProvider -->
+      </class> <!-- ddt.TestWithParameters -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
