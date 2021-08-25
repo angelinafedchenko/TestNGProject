@@ -2,6 +2,7 @@ package listeners2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -9,6 +10,7 @@ import org.testng.annotations.Test;
 public class FirstListenerTC {
 
     WebDriver driver;
+
     @Test
     public void titleVerification() {
 
@@ -16,6 +18,7 @@ public class FirstListenerTC {
         driver = new ChromeDriver();
         driver.get("https://www.google.com/intl/ru/gmail/about/");
         System.out.println(driver.getTitle());
+        //Assert.assertTrue(false);
         driver.quit();
     }
 }
